@@ -1,5 +1,5 @@
 .navbar-nav .nav-link.active {
-    /* color: white; */
+    color: white;
     font-weight: 700;
     
   }
@@ -7,28 +7,30 @@
     font-size: 0.9rem;
   }
   .navbar-brand {
-    color: navy;
-    font-weight: bold;
-    font-size: 1.5rem;
-    text-shadow: 1px 1px grey;
+    color: #fff;
+    /* color:var(--moss3); */
+    font-weight: 500;
+    font-size: 1.3rem;
+    transition: 0.3s ease-in;
   }
   .navbar-brand:hover {
-    /* color: white; */
+    color: white; 
     transform: scale(1.1);
   }
-  .bg-white {
-    background-color: #fff;
+  .bg-navy {
+    background-color: #0D4286;
+    /* background-color: #fff; */
     /* background: linear-gradient(to right, #021347, #004272, #004272);  */
     /* background-color: #03658C; */
     /* background-color: #003399; */
     /* background-color: rgb(98, 96, 96); */
   }
-  /* .navbar-nav a {
+  .navbar-nav a {
     color: white;
-  } */
+  }
   .navbar-nav a:hover {
    transform: scale(1.05);
-    /* color: white; */
+    color: white;
   }
   /* .navbar-nav .nav-link.show {
     color: white;

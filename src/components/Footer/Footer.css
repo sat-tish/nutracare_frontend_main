@@ -1,10 +1,15 @@
 .footer {
-    background-color: rgb(246, 246, 248);
+    /* background-color: rgb(246, 246, 248); */
+    background-color: #0D4286;
 }
 .footer-para {
     font-size: 0.8rem;
-    color: rgb(99, 98, 98);
+    /* color: rgb(99, 98, 98); */
+    color: #d2c5fb;
     text-decoration: none;
+}
+.footer h6 {
+    color: #fff;
 }
 .footer-icon-div {
     width: 36px;

@@ -1,7 +1,11 @@
 .achievements-wrapper {
-    background-color: rgb(247, 247, 253);
+    /* background-color: rgb(247, 247, 253); */
+    background-color: #164889;
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+  .achievements-wrapper h4 {
+    color: #fff;
   }
   .achi-img {
     width: 100%;

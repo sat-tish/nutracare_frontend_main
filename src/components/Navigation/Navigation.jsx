@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
   return (
-    <Navbar sticky="top" expand="lg" className="bg-white shadow">
+    <Navbar sticky="top" expand="lg" className="bg-navy shadow">
     <Container>
       <Navbar.Brand>Nutracare 360</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

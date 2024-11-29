@@ -30,11 +30,20 @@
   .btn-selection-search {
     border-radius: 0px;
     flex: 1;
-    background-color: var(--moss2);
+    background-color: var(--moss3);
     color: #fff;
     letter-spacing: 3px;
   }
   .btn-selection-search:hover {
     background-color: var(--moss3);
     color: #fff;
+  }
+
+  @media(max-width:576px){
+    .sel-form-select {
+      min-width: 45%;
+    }
+    .sel-form-btn {
+      max-width: 30%;
+    }
   }

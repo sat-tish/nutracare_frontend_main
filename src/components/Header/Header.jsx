@@ -8,21 +8,36 @@ import SelectionHome from "../SelectionHome/SelectionHome";
 const Header = () => {
 
     const headerList = [
-        {
-          img: "url(Images/BackgroundImages/bg_1.jpg.webp)",
-          class: "img1",
-          offset: 0,
-        },
-        {
-          img: "url(Images/BackgroundImages/bg_2.jpg.webp)",
-          class: "img2",
-          offset: 0,
-        },
-        {
-          img: "url(Images/BackgroundImages/bg_3.jpg.webp)",
-          class: "img3",
-          offset: 6,
-        },
+      {
+        img: "url(Images/BackgroundImages/b1.jpg)",
+        class: "img1",
+        offset: 6,
+      },
+      {
+        img: "url(Images/BackgroundImages/b2.jpg)",
+        class: "img1",
+        offset: 6,
+      },
+      {
+        img: "url(Images/BackgroundImages/b3.jpg)",
+        class: "img1",
+        offset: 0,
+      },
+      {
+        img: "url(Images/BackgroundImages/b4.jpg)",
+        class: "img1",
+        offset: 0,
+      },
+      {
+        img: "url(Images/BackgroundImages/b5.jpg)",
+        class: "img1",
+        offset: 0,
+      },
+      {
+        img: "url(Images/BackgroundImages/b6.jpg)",
+        class: "img1",
+        offset: 0,
+      },
       ];
       const settings = {
         dots: false,
@@ -45,7 +60,7 @@ const Header = () => {
                 backgroundImage: element.img,
               }}
             >
-              {/* <div className="overlay" /> */}
+              <div className="overlay" />
               <Container>
                 <Row>
                   <Col md={9} lg={7} xl={{ span: 6, offset: element.offset }}>

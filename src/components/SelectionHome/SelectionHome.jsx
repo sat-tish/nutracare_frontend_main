@@ -10,22 +10,22 @@ const SelectionHome = () => {
         <Col >
         <div className="mt-4 mb-3">
             <div className=" d-flex flex-wrap ">
-            <select name="" id="" className="selection-form mb-2">
+            <select name="" id="" className="selection-form sel-form-select mb-2">
                 <option value="">City</option>
                 <option value="">Pune</option>
                 <option value="">Mumbai</option>
               </select>
-              <select name="" id="" className="selection-form mb-2">
+              <select name="" id="" className="selection-form sel-form-select mb-2">
                 <option value="">Professionals</option>
                 <option value="">centers</option>
                
               </select>
-              <select name="" id="" className="selection-form mb-2">
+              <select name="" id="" className="selection-form sel-form-select mb-2">
                 <option value="">Category</option>
                 <option value="">Pune</option>
                 <option value="">Mumbai</option>
               </select>
-                <button className="btn btn-selection-search mb-2" onClick={()=>navigate('/search-selection')}>Search</button>
+                <button className="btn btn-selection-search sel-form-btn mb-2" onClick={()=>navigate('/search-selection')}>Search</button>
             </div>
           </div>
         </Col>

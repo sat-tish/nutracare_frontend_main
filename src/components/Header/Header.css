@@ -1,10 +1,10 @@
 .header-wrapper {
-    height: 600px;
+    height: 500px;
     position: relative;
   }
   .header-img {
     width: 100%;
-    height: 600px;
+    height: 500px;
     background-size: cover; 
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -19,15 +19,15 @@
   .img3 {
     background-position-x: 40%;
   }
-  /* .overlay {
+  .overlay {
     width: 100%;
     height: 100%; 
     position: absolute;
     top: 0px;
     left: 0px; 
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 1; 
-  } */
+  }
   .header-wrapper h2 {
   font-size: 14px;
   text-transform: uppercase;
@@ -55,8 +55,11 @@
   
   .header-inner {
     width: 100%;
-    height: 600px;
-    
+    height: 500px;
+    color: #fff;
+  }
+  .header-inner h2, .header-inner h1 {
+    z-index: 3;
   }
   .header-inner p {
     z-index: 2;
