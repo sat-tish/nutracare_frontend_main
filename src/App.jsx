@@ -1,3 +1,5 @@
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes } from "react-router-dom"
 import Navigation from "./components/Navigation/Navigation"
 import Footer from "./components/Footer/Footer"
@@ -14,10 +16,10 @@ function App() {
     <>
     <Navigation/>
     <Routes>
-       <Route path='/' element= {<HomePage/>}/>
-       <Route path='/contact' element= {<Contact/>}/>
-       <Route path='/about' element= {<About/>}/>
-       <Route path='/blogs' element= {<BlogPage/>}/>
+       <Route path='/nutracare_frontend_main/' element= {<HomePage/>}/>
+       <Route path='/nutracare_frontend_main/contact' element= {<Contact/>}/>
+       <Route path='/nutracare_frontend_main/about' element= {<About/>}/>
+       <Route path='/nutracare_frontend_main/blogs' element= {<BlogPage/>}/>
        {/* <Route path='/search-selection' element= {<SearchSelection/>}/>
        <Route path='/selection-all-centers' element= {<SelectionAllCenters/>}/>
        <Route path='/professional-info' element= {<ProfessionalInfo/>}/> */}
