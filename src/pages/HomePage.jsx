@@ -3,11 +3,11 @@ import AllCenters from "../components/AllCenters/AllCenters"
 import Header from "../components/Header/Header"
 import SuccessStories from "../components/SuccessStories/SuccessStories"
 import Testimonials from "../components/Testimonials/Testimonials"
-import { useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 
 const HomePage = () => {
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
   return (
     <>
      <Header/>
@@ -20,12 +20,13 @@ const HomePage = () => {
       <AllCenters/>
       <Row className="centers-row">
         <Col className="d-flex justify-content-end mb-5">
-          <button type="button" className="btn fig-read-more" onClick={()=>{
+          {/* <button type="button" className="btn fig-read-more" onClick={()=>{
             navigate('/nutracare_frontend_main/all_centers'
             )
             }}>
             View More..
-          </button>
+          </button> */}
+          <Link className="btn fig-read-more" to={'/nutracare_frontend_main/all_centers'}>View More..</Link>
         </Col>
       </Row>
     </Container>

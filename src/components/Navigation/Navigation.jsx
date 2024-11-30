@@ -29,6 +29,7 @@ const Navigation = () => {
           </NavDropdown>
           <Nav.Link as={NavLink} to='/nutracare_frontend_main/blogs' >Blogs</Nav.Link>
           <Nav.Link as={NavLink} to='/nutracare_frontend_main/contact' >Contact Us</Nav.Link>
+          <Nav.Link as={NavLink} to='/nutracare_frontend_main/login' >Login</Nav.Link>
          </Nav>
       </Navbar.Collapse>
     </Container>
