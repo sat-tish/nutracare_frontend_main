@@ -19,7 +19,7 @@ const SelectionProfessionalsAll = () => {
 
   return (
     <>
-    <Container fluid className='Search-selection-wrapper p-0'>
+    <Container fluid className='inner-pages-wrapper p-0'>
         <div className='header-all mb-5' style={{backgroundImage:"url(Images/BackgroundImages/b2.jpg)"}}>
         <div className="overlay-header" />
         <Container>

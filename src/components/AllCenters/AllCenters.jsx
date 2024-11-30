@@ -36,12 +36,12 @@ const AllCenters = () => {
       ];
 
   return (
-    <Container className="">
-      <Row className="centers-row">
+    <Container>
+      {/* <Row className="centers-row">
         <Col>
           <h3 className="fs-3 mb-5 mt-5 text-center">All Centers</h3>
         </Col>
-      </Row>
+      </Row> */}
       <Row className="centers-row">
         {centerList.map((element, index) => {
           return (
@@ -51,13 +51,13 @@ const AllCenters = () => {
           );
         })}
       </Row>
-      <Row className="centers-row">
+      {/* <Row className="centers-row">
         <Col className="d-flex justify-content-end mb-5">
           <button type="button" className="btn fig-read-more">
             View More..
           </button>
         </Col>
-      </Row>
+      </Row> */}
     </Container>
   )
 }

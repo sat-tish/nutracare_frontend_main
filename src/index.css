@@ -34,4 +34,9 @@
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -1; 
   }
-  
+  .inner-pages-wrapper {
+    background-color: rgb(247, 247, 253);
+}
+.home-heading h3 {
+  color: #0D4286;
+}
