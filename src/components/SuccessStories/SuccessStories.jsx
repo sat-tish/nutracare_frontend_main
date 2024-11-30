@@ -58,12 +58,12 @@ const SuccessStories = () => {
         dots: true,
         //fade: true,
         infinite: true,
-        speed: 1000,
+        //speed: 1000,
         slidesToShow: 1,
         slidesToScroll: 1,
         waitForAnimate: false,
         autoplay: false,
-        autoplaySpeed: 3000,
+        //autoplaySpeed: 3000,
         arrows: true
       };
     

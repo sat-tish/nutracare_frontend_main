@@ -11,3 +11,6 @@
 .feedback-h4 {
     color: #0D4286;
 }
+.slider-box {
+    overflow-x: hidden;
+}

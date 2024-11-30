@@ -34,6 +34,7 @@ const Testimonials = () => {
         </div>
         <div className="row">
           <div className="col-12 col-md-8 col-lg-6 mx-auto">
+            <div className="slider-box">
             <Slider {...settings}>
               {list.map((element, index) => {
                 return (
@@ -60,6 +61,8 @@ const Testimonials = () => {
                 );
               })}
             </Slider>
+            </div>
+           
           </div>
         </div>
       </div>

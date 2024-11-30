@@ -22,6 +22,9 @@
     height: auto;
     background-color: #fff;
   }
+  .slider-container {
+    overflow-x: hidden;
+  }
   @media (min-width:768px) {
     .achi-img {
       height: 500px;
