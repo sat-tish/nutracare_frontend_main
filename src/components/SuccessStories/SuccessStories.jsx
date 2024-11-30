@@ -55,16 +55,16 @@ const SuccessStories = () => {
         )
     });
     const settings = {
-        dots: false,
-        fade: true,
+        dots: true,
+        //fade: true,
         infinite: true,
         speed: 1000,
         slidesToShow: 1,
         slidesToScroll: 1,
         waitForAnimate: false,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 3000,
-        arrows: false
+        arrows: true
       };
     
 

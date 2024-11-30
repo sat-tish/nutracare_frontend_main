@@ -5,8 +5,12 @@
 .footer-para {
     font-size: 0.8rem;
     /* color: rgb(99, 98, 98); */
-    color: #d2c5fb;
+    color: #dedee0;
     text-decoration: none;
+}
+.footer-para:hover{
+  
+    color: #fff;
 }
 .footer h6 {
     color: #fff;
@@ -27,4 +31,7 @@
 }
 .para-mb {
     margin-bottom: 60px;
+}
+.footer-para span {
+    color: #fff;
 }

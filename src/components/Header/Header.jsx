@@ -31,7 +31,7 @@ const Header = () => {
       {
         img: "url(Images/BackgroundImages/b5.jpg)",
         class: "img1",
-        offset: 0,
+        offset: 6,
       },
       {
         img: "url(Images/BackgroundImages/b6.jpg)",

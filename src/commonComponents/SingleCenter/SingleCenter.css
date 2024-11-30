@@ -52,15 +52,18 @@
     color: white;
   }
   .card-title {
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
   }
   .card-text {
-    font-size: 12px;
+    font-size: 0.8rem;
     color: grey;
     line-height: 1.1;
   }
   .card-body h6 {
     font-size: 14px;
+  }
+  .card-body h6 {
+    font-size: 0.9rem;
   }
   .btn-view-more, .market-btn {
     margin-top: 20px;

@@ -2,6 +2,9 @@
     width: 100%;
     margin: 0 auto;
 }
+.centers-row h3 {
+    color: #0D4286;
+}
 @media(min-width:1200px){
     .centers-row{
         width: 90%;

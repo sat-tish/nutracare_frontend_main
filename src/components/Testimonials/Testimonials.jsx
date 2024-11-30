@@ -29,7 +29,7 @@ const Testimonials = () => {
       <div className="container testimonial-wrapper">
         <div className="row">
           <div className="col-12">
-            <h4 className="text-center mb-5">Feedback from our Users</h4>
+            <h4 className="text-center mb-5 feedback-h4">Feedback from our Users</h4>
           </div>
         </div>
         <div className="row">
