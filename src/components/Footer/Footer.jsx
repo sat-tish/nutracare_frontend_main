@@ -18,7 +18,7 @@ const Footer = () => {
           <div className='d-flex flex-wrap justify-content-between mt-5 mb-5 footer-email'>
           <div >
               <h6>Contact Us </h6>
-              <p className='mt-3 me-5 mb-5'><Link className='footer-para'>canayu360@gmail.com</Link></p>
+              <p className='mt-3 me-5 mb-5'><Link className='footer-para'>nutracare360@gmail.com</Link></p>
           </div>
               <div className='me-xl-5'>
                  <h6>Connect on Social Media</h6>
@@ -35,26 +35,26 @@ const Footer = () => {
           <h6>Links</h6>
           <p className='mt-4'><Link className='footer-para' to={'/'}>Home</Link></p>
           <p><Link className='footer-para' to={'/blogs'}>Blogs</Link></p>
-          <p><Link className='footer-para' to={'/about-us'}>About Us</Link></p>
-          <p><Link className='footer-para' to={'/contact-us'}>Join Us</Link></p>
-          <p className='mb-5'><Link className='footer-para'>Categories</Link></p>
+          <p><Link className='footer-para' to={'/contact'}>Join Us</Link></p>
+          <p><Link className='footer-para' to={'/contact-us'}>Professionals</Link></p>
+          <p className='mb-5'><Link className='footer-para'>Login</Link></p>
         </Col>
         <Col xs={6} md={6} lg={2}>
           <h6>Top Categories</h6>
-          <p className='mt-4'><Link className='footer-para'>General Physician</Link></p>
-          <p><Link className='footer-para'>Medicine</Link></p>
-          <p><Link className='footer-para'>Gynacologist</Link></p>
-          <p><Link className='footer-para'>Paediatric</Link></p>
-          <p><Link className='footer-para'>Orthopedic</Link></p>
-          <p className='mb-5'><Link className='footer-para'>Dentist</Link></p>
+          <p className='mt-4'><Link className='footer-para'>Naturopathy</Link></p>
+          <p><Link className='footer-para'>Accupressure</Link></p>
+          <p><Link className='footer-para'>Accupuncture</Link></p>
+          <p><Link className='footer-para'>Homeopathy</Link></p>
+          <p><Link className='footer-para'>Chiropractor</Link></p>
+          <p className='mb-5'><Link className='footer-para'>Osteopathy</Link></p>
         </Col>
         <Col xs={6} md={6} lg={2}>
            <h6>Top Categories</h6>
-           <p className='mt-4'><Link className='footer-para'>Skin & Hair</Link></p>
-           <p><Link className='footer-para'>Ayurved</Link></p>
-           <p><Link className='footer-para'>Homeopathy</Link></p>
+           <p className='mt-4'><Link className='footer-para'>Massage therapy</Link></p>
+           <p><Link className='footer-para'>Ayurveda</Link></p>
+           <p><Link className='footer-para'>Chinese medicines</Link></p>
            <p><Link className='footer-para'>Physiothetapy</Link></p>
-           <p><Link className='footer-para'>Dietitian</Link></p>
+           <p><Link className='footer-para'>Nutritionist</Link></p>
            <p className='mb-5'><Link className='footer-para'>Yoga</Link></p>
         </Col>
         <Col md={12} className='text-center'>

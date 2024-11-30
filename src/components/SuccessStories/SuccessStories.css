@@ -23,7 +23,7 @@
     background-color: #fff;
   }
   .slider-container {
-    overflow-x: hidden;
+    overflow: hidden;
   }
   @media (min-width:768px) {
     .achi-img {
