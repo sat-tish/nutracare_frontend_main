@@ -96,7 +96,7 @@ const SelectionHome = () => {
               <select name="" id="" className="selection-form sel-form-select mb-2">
                 {categoriesAll}
               </select>
-                <button className="btn btn-selection-search sel-form-btn mb-2" onClick={()=>navigate('/search-selection')}>Search</button>
+                <button className="btn btn-selection-search sel-form-btn mb-2" onClick={()=>navigate('/nutracare_frontend_main/all_professionals')}>Search</button>
             </div>
           </div>
         </Col>

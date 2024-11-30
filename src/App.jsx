@@ -7,6 +7,7 @@ import HomePage from "./pages/HomePage"
 import Contact from "./pages/Contact"
 import About from "./pages/About"
 import BlogPage from "./pages/BlogPage"
+import SelectionProfessionalsAll from './components/SelectionProfessionalsAll/SelectionProfessionalsAll';
 
 
 function App() {
@@ -20,8 +21,8 @@ function App() {
        <Route path='/nutracare_frontend_main/contact' element= {<Contact/>}/>
        <Route path='/nutracare_frontend_main/about' element= {<About/>}/>
        <Route path='/nutracare_frontend_main/blogs' element= {<BlogPage/>}/>
-       {/* <Route path='/search-selection' element= {<SearchSelection/>}/>
-       <Route path='/selection-all-centers' element= {<SelectionAllCenters/>}/>
+       <Route path='/nutracare_frontend_main/all_professionals' element= {<SelectionProfessionalsAll/>}/>
+       {/* <Route path='/selection-all-centers' element= {<SelectionAllCenters/>}/>
        <Route path='/professional-info' element= {<ProfessionalInfo/>}/> */}
     </Routes>
     <Footer/>

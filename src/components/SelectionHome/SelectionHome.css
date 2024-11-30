@@ -31,7 +31,8 @@
     border-radius: 0px;
     flex: 1;
     /* background-color: var(--moss3); */
-    background-color: #E90000;
+    /* background-color: #E90000; */
+    background-color: #c10606;
     color: #fff;
     letter-spacing: 3px;
   }
