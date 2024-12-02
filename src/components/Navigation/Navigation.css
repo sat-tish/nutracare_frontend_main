@@ -20,6 +20,10 @@
     color: white; 
     transform: scale(1.1);
   }
+  .nav-dropdown {
+    width: 600px;
+    height: auto;
+  }
   .bg-navy {
     /* background-color: transparent; */
     background-color: #0D4286;

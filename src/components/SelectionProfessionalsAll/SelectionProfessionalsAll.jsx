@@ -60,7 +60,7 @@ const SelectionProfessionalsAll = () => {
                           consulting fees <span> 300+</span>
                         </p>
                         <button className="btn btn-primary fig-know-more btn-sm " onClick={()=>{
-                             navigate('/professional-info', {state:{resultName:doc.name}})
+                             navigate('/nutracare_frontend_main/professional-info', {state:{resultName:doc.name}})
                         }}>Know more..</button>
                        
                       </div>
