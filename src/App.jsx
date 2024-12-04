@@ -10,6 +10,7 @@ import BlogPage from "./pages/BlogPage"
 import SelectionProfessionalsAll from './components/SelectionProfessionalsAll/SelectionProfessionalsAll';
 import SelectionCentersAll from './components/SelectionCentersAll/SelectionCentersAll';
 import ProfessionalInfo from './pages/ProfessionalInfo/ProfessionalInfo';
+import MessageBox from './commonComponents/MessageBox/MessageBox';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
        <Route path='/nutracare_frontend_main/all_professionals' element= {<SelectionProfessionalsAll/>}/>
        <Route path='/nutracare_frontend_main/all_centers' element= {<SelectionCentersAll/>}/>
        <Route path='/nutracare_frontend_main/professional-info' element= {<ProfessionalInfo/>}/>
+       <Route path='/nutracare_frontend_main/message' element= {<MessageBox/>}/>
     </Routes>
     <Footer/>
     </>
