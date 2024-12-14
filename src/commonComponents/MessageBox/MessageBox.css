@@ -18,3 +18,17 @@
 .m-textarea {
     min-height: 180px;
 }
+.input-relative {
+    position: relative;
+
+}
+
+.absolute {
+    position: absolute;
+    top: -60px;
+    left: 10px;
+    width: 18px;
+    height: 18px;
+    color: black;
+   
+}

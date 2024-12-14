@@ -2,6 +2,8 @@
 import './Footer.css'
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookF, faSquareInstagram, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
@@ -23,10 +25,10 @@ const Footer = () => {
               <div className='me-xl-5'>
                  <h6>Connect on Social Media</h6>
                  <div className='d-flex mt-4 mb-5 gap-2'>
-                     <Link><div className='footer-icon-div'><span>i</span></div></Link>
-                     <Link><div className='footer-icon-div'><span>i</span></div></Link>
-                     <Link><div className='footer-icon-div'><span>i</span></div></Link>
-                     <Link><div className='footer-icon-div'><span>i</span></div></Link>
+                     <Link><div className='footer-icon-div'><span><FontAwesomeIcon icon={faFacebookF} className='footer-icon' /></span></div></Link>
+                     <Link><div className='footer-icon-div'><span><FontAwesomeIcon icon={faSquareInstagram} className='footer-icon'/></span></div></Link>
+                     <Link><div className='footer-icon-div'><span><FontAwesomeIcon icon={faTwitter} className='footer-icon'/></span></div></Link>
+                     <Link><div className='footer-icon-div'><span><FontAwesomeIcon icon={faWhatsapp} className='footer-icon' /></span></div></Link>
                  </div>
               </div>
          </div>

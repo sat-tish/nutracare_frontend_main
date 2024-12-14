@@ -1,6 +1,9 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import './MessageBox.css'
 import { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUser } from '@fortawesome/free-solid-svg-icons';
+
 
 
 const MessageBox = () => {
@@ -23,13 +26,25 @@ const MessageBox = () => {
                <div className='pro-info-main mt-5 mb-5'>
                 <h5 className='mb-5 message-form-width text-center'>Send Message</h5>
                <form onSubmit={handleSubmit} className='d-flex flex-column gap-4'>
-                  <input 
+                <div  className=''>
+              
+                <input 
                     type="text" 
                     value={fName}
                     placeholder='Enter your name'
                     className='message-form-inner'
                     onChange={(e) => setfName(e.target.value)}
                   />
+               
+                 
+               
+                 <FontAwesomeIcon icon={faUser} className='icon-absolute' />
+               
+                 
+                </div>
+                 
+                  
+                
                   <input 
                     type="email" 
                     value={email}
@@ -47,6 +62,8 @@ const MessageBox = () => {
                   <textarea name="Send-message" placeholder='Send message' id="" className='message-form-inner m-textarea'/>
    
                   <button type='submit' className='book-apt message-form-width'>Submit</button>
+
+                 
                 </form>
                </div>
              
